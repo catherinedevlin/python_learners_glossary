@@ -450,9 +450,9 @@ Packaging
 ---------
 
 PyPI
-  `PyPI <https://pypi.python.org/pypi>`_, also known as *The Cheeseshop*,
-  is the "Python Packaging Index". It's where you can publish and download
-  open source Python packages.
+  `PyPI <https://pypi.python.org/pypi>`_, pronounced "Pie-Pee-Eye" and also
+  known as *The Cheeseshop*, is the "Python Packaging Index".
+  It is where you can publish and download open source Python packages.
 
 pip
   `pip <https://pip.pypa.io/en/latest/index.html>`_ is the recommended tool
