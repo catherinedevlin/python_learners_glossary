@@ -1,7 +1,32 @@
 python_learners_glossary
 ========================
 
-Definitions of Pardon jargon to help Python beginners understand Pythonista gobbletigook
+Definitions of Pardon jargon to help Python beginners
+understand Pythonista gobbletigook.  The idea is to
+help a Python beginner's understanding even before
+they've learned to write the code.
+
+CONTRIBUTING
+============
+
+Please submit issues_ and `pull requests`_!
+
+1. Clarity
+2. Conciseness
+3. Accuracy
+
+... are all desirable - *in that order*.
+Don't get pedantic or hung up on `corner cases`_.
+
+Terms to define are not strictly Python terms,
+but any terms likely to be frequently heard at
+a Python conference.
+
+To reduce cognitive load, let's use examples around
+a consistent, familiar theme: cats.
+
+Glossary
+========
 
 Basic
 -----
@@ -24,7 +49,7 @@ String
   A piece of text data, like ``'hello'``.  Enclosing it
   in quotation marks
   tells Python that it's a string and not something like
-  a variable name.
+  a variable_ name.
 
 Float
   Short for *floating-point number*, a number with a
@@ -39,22 +64,26 @@ Variable
 
       cat_name = 'Fluffy'
 
-  Now ``cat_name`` is a *variable* with the value 'Fluffy'.
+  Now ``cat_name`` is a *variable* with the value_ 'Fluffy'.
 
 Assign
   Give a name to a value_, making a variable_.
 
-Dunder
-  The two underscores before and after a method name to indicate that it is "magic", i.e. __init__, __new__, etc.
-
-Magic Method
-  Methods that can be used to change the normal behavior of an object. HINT : in Python, everything is an object.
-
-Object
-  A logical grouping of methods, expressions, variables, and functions.
-
 Expression
-  In Python, this is basically a list of commands that need to be evaluated and executed. Typically, these fit on one line, but there is a way for an expression to take up more than one line.
+  A description of a value that contains
+  calculations and/or
+  other executable code; the code must be
+  executed to determine the expression's
+  actual value.  Typically,
+  these fit on one line, but not necessarily.
+
+  Examples::
+
+      'lazy ' + 'cat'  # Evaluates to 'lazy cat'
+      2 * 2 > 100  # Evaluates to ``False``
+
+Boolean
+  ``True`` or ``False``.
 
 .. _list:
 
@@ -66,7 +95,6 @@ List
 
       ['Mouser', 17, 'Whiskers']
 
-<<<<<<< HEAD
 Tuple
   A series of values.  Python will remember what order they
   come in.
@@ -136,7 +164,12 @@ Object-oriented
 .. _objects:
 
 Object
-  Contains both data and methods_.
+  A logical grouping of functions (called "methods_"
+  in this context) and variables
+  (called "attributes_" in this context).
+
+.. _method:
+.. _methods:
 
 Method
   A function that *belongs to* an object and
@@ -153,9 +186,17 @@ Method
   knows that it belongs to `my_cat`.
 
 .. attribute_:
+.. attributes_:
 
 Attribute
   A piece of data that belongs to an object.
+  This object, ``my_cat``, has a ``name`` attribute
+  with the value ``'Agamemnon'``.``
+
+  ::
+
+      my_cat.name
+      'Agamemnon'
 
 .. _class:
 .. _classes:
@@ -175,6 +216,15 @@ Instantiate
 
 Object-oriented programming
   Programming that makes use of classes_ and objects_.
+
+Dunder
+  The two underscores before and after a method name to
+  indicate that it is "magic", i.e. __init__, __new__, etc.
+  (Short for "Double-underscore")
+
+Magic Method
+  Methods that can be used to change the normal
+  behavior of an object. HINT : in Python, everything is an object.
 
 Program Structure
 -----------------
@@ -270,7 +320,27 @@ SQL database
 Techniques
 ----------
 
-.. _`version control`:
+.. _bug:
+.. _bugs:
+
+Bug
+  A mistake in software that makes it crash or
+  behave badly.
+
+Debug
+  Fix bugs_
+
+Refactor
+  Change a program so that the functionality seems
+  the same from the user's point of view, but the
+  code itself is better - easier to read, understand,
+  maintain, etc.
+
+Agile Development
+  TODO
+
+Version Control
+---------------
 
 Version Control
   Tools and techniques for keeping track of the
@@ -279,9 +349,67 @@ Version Control
   changes to a file without ruining each others'
   work.
 
+.. _issues:
+
+Issue
+  Request for a specific change to software,
+  either to fix a bug_ or provide new features
+  ("enhancement").  Issues are usually filed
+  in a project's `bug tracker`_.
+
+Bug report
+  A category of issue_ for notifying the programmers
+  of a bug_
+
+.. _repository:
+.. _repositories:
+
+Repository
+  A record on disk of the `version control`_ history
+  for a directory (and its subdirectories).  Usually
+  we mean someplace on line, usually at a service like
+  github_.
+
+Repo
+  Abbreviation for repository_.
+
+Branch
+  TODO
+
+.. _fork:
+
+Fork
+  TODO
+
+Pull Request
+  After you have fork_ed a repository_ and made
+  changes, you may ask the original repository
+  owner to incorporate ("pull") your changes into the
+  original repository.
+
+git
+  The most popular program for version control.
+
+mercurial
+  Another version control program
+
+github
+  A commercial service that hosts version control
+  repositories_ online.
+
+bitbucket
+  Another commercial service for hosting version
+  control repositories_.
+
+Testing
+-------
+
 Testing
   To programmers, them means scripts that verify
-  that a program works
+  that a program works as desired automatically.
+  We rarely talk about non-automated, direct human
+  testing, because it's soul-sucking and can't keep
+  up with our speed of generating bugs_.
 
 Regression test
   Tests to make sure that one part of a program
@@ -310,22 +438,45 @@ Test-Driven Development
   even before the program exists.  Then you write
   the code until the tests no longer fail.
 
-Agile Development
-  TODO
-
+Corner Case
+  A situation that's likely to show bugs_ in code
+  because it's so unusual that the developers were
+  unlikely to account for it.  For instance, if you
+  are classifying cats by their eye color, a cat with
+  two different-color eyes may be a corner case that
+  disrupts your classification scheme.
+  
 Architecture
 ------------
 
 API
   Shorthand for "application programmer interface".
-  This is a way to pass messages back and forth in
-  order to add functionality to a program.
+  This is the way that other programs can make use
+  of this program.  Web services can have APIs that
+  let them accept messages from other programs and send
+  messages back in response.
+
   Examples include POSIX (the unix/Linux API), Win32,
   Cocoa, Amazon AWS, and Android. However, many other
   services have APIs to add things like (for instance)
   Dropbox and Facebook to your app.
 
   TODO: generalize this more
+
+Operations
+----------
+
+Operations
+  Activities related to deploy_ing software and
+  keeping it running on its destination servers.
+
+DevOps
+  Philosophy and tools for operations_ that try to
+  make the process as automatic and failsafe as
+  possible by imitating software developers' tools
+  and techniqes.
+
+.. _deploy:
 
 Deploy
   To deliver a completed program so that other
@@ -335,6 +486,12 @@ Deploy
   or through an App Store, or maybe it just needs to
   be on the web. That last step to make it so that
   other people can reach it is called "deployment"
+
+Build
+  TODO
+
+Build Server
+  TODO
 
 Continuous Integration
   TODO
