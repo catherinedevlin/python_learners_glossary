@@ -1,7 +1,7 @@
 python_learners_glossary
 ========================
 
-Definitions of Pardon jargon to help Python beginners
+Definitions of Python jargon to help Python beginners
 understand Pythonista gobbletigook.  The idea is to
 help a Python beginner's understanding even before
 they've learned to write the code.
@@ -371,6 +371,9 @@ Branch
 Fork
   TODO
 
+.. _pull request:
+.. _pull requests:
+
 Pull Request
   After you have fork_ed a repository_ and made
   changes, you may ask the original repository
@@ -436,6 +439,19 @@ Corner Case
   are classifying cats by their eye color, a cat with
   two different-color eyes may be a corner case that
   disrupts your classification scheme.
+
+Packaging
+---------
+
+PyPI
+  `PyPI <https://pypi.python.org/pypi>`_, pronounced "Pie-Pee-Eye" and also
+  known as *The Cheeseshop*, is the "Python Packaging Index".
+  It is where you can publish and download open source Python packages.
+
+pip
+  `pip <https://pip.pypa.io/en/latest/index.html>`_ is the recommended tool
+  for installing Python packages and is preferred over
+  `easy_install <https://pypi.python.org/pypi/setuptools>`_.
 
 Architecture
 ------------
