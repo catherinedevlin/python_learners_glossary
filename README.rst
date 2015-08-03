@@ -34,6 +34,14 @@ Variable
 
 Assign
   Give a name to a value_, making a variable_.
+  
+Dunder
+  The two underscores before and after a method name to indicate that it is "magic", i.e. __init__, __new__, etc.
+
+Magic Method
+  Methods that can be used to change the normal behavior of an object
+
+
 
 Expression
   TODO
