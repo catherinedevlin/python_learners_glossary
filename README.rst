@@ -1,7 +1,7 @@
 python_learners_glossary
 ========================
 
-Definitions of Pardon jargon to help Python beginners
+Definitions of Python jargon to help Python beginners
 understand Pythonista gobbletigook.  The idea is to
 help a Python beginner's understanding even before
 they've learned to write the code.
@@ -380,6 +380,9 @@ Branch
 
 Fork
   TODO
+
+.. _pull request:
+.. _pull requests:
 
 Pull Request
   After you have fork_ed a repository_ and made
