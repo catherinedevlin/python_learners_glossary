@@ -214,7 +214,7 @@ Instantiate
   several new instances of the class `Cat`.
   (Please spay our neuter your pets!)
 
-Object-oriented programming
+`Object-oriented programming`_
   Programming that makes use of classes_ and objects_.
 
 Dunder
@@ -231,14 +231,14 @@ Program Structure
 
 .. _module:
 
-Module
+`Module`_
   A single file of Python commands.  Calling it a
   module implies we plan to "import" it, not just
   call it on its own.
 
 .. _package:
 
-Package
+`Package`_
   A directory full of modules that can all together
   be referred to by the package's name.
 
@@ -262,13 +262,13 @@ Editor
 
 .. _`Notepad++`: https://notepad-plus-plus.org/
 
-IDE
+`IDE`_
   Abbreviation for Integrated Development Environment.
   A kind of text editor_ with programming-related
   superpowers; a program that lets you build more programs.
   Examples include Eclipse, Sublime, Wingware, and IDLE
 
-Database
+`Database`_
   A place to store data outside the program,
   possibly in memory ("in-memory databases")
   but generally on disk.  A file on disk could
@@ -503,5 +503,17 @@ Build
 Build Server
   TODO
 
-Continuous Integration
+`Continuous Integration`_
   TODO
+
+.. _`Module`: http://docs.python-guide.org/en/latest/writing/structure/#modules
+
+.. _`Object-oriented programming`: http://docs.python-guide.org/en/latest/writing/structure/#object-oriented-programming
+
+.. _`Continuous Integration`: http://docs.python-guide.org/en/latest/scenarios/ci/
+
+.. _`Database`: http://docs.python-guide.org/en/latest/scenarios/db/
+
+.. _`IDE`: http://docs.python-guide.org/en/latest/dev/env/#ides
+
+.. _`Package`: http://docs.python-guide.org/en/latest/writing/structure/#packages
