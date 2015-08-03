@@ -306,6 +306,9 @@ SQL database
 .. `NoSQL database`:
   More or less a synonym for `non_relational database`_.
 
+REPL
+  TODO
+
 Techniques
 ----------
 
