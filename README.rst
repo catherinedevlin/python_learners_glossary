@@ -3,6 +3,15 @@ python_learners_glossary
 
 Definitions of Pardon jargon to help Python beginners understand Pythonista gobbletigook
 
+Basic
+-----
+
+.. _execute:
+
+Execute
+  Go.  Run.  Do that thing you do.  Nothing to do
+  with beheading anybody.
+
 Data
 ----
 
@@ -38,9 +47,262 @@ Assign
 Expression
   TODO
 
+.. _list:
 
+List
+  A series of values.  Python will remember what order they
+  come in.
 
+  ::
 
+      ['Mouser', 17, 'Whiskers']
+
+Tuple
+  A series of values.  Python will remember what order they
+  come in.
+
+  Hey, is that the same as a list_?  It's very similar, but
+  after a tuple is set up, you're not allowed to change
+  it.
+
+  ::
+
+      ('Mouser', 17, 'Whiskers')
+
+Set
+  Just like in mathematics - a group of values.  Python
+  will *not* necessarily remember what order they came
+  in, and each value_ can only appear in the set once.
+
+Functions
+---------
+
+.. _function:
+
+Function
+  A named series of instructions.  Its definition
+  begins with the `def` keyword.
+
+  ::
+
+      def feed_cat(kg_of_food, kg_of_cat):
+          kg_of_food = kg_of_food - 0.1
+          kg_of_cat = kg_of_cat + 0.1
+
+.. _call:
+.. _called:
+
+Call
+  Tell a function_ to execute_.  To call a
+  function, give its name followed by
+  parenthesis containing its arguments_ (if
+  any).
+
+  ::
+
+      feed_cat(8.0, 3.0)
+
+.. _argument:
+.. _arguments:
+
+Argument
+  A piece of data that you "pass" (give) to a
+  function_ as you call_ it.  In our ``feed_cat``
+  function_, ``kg_of_food`` and ``kg_of_cat`` are
+  the function's arguments.
+
+Parameter
+  Synonym for argument_.
+
+Return
+  Stop running a function_ and return to the place
+  where the function was called_ from.  Send a
+  value_ back - the "return value".
+
+Object-oriented
+---------------
+
+.. _object:
+.. _objects:
+
+Object
+  Contains both data and methods_.
+
+Method
+  A function that *belongs to* an object and
+  "knows" about the object it belongs to.
+  For instance, if `my_cat` is an object
+  that has a `speak` method, then we can
+  call_ it::
+
+      my_cat.speak()
+      'meow'
+
+  ... and `my_cat.speak` doesn't need to be told what
+  kind of animal should speak, because it already
+  knows that it belongs to `my_cat`.
+
+.. attribute_:
+
+Attribute
+  A piece of data that belongs to an object.
+
+.. _class:
+.. _classes:
+
+Class
+  TODO
+
+Instance
+  An object_ of a given class_.  `my_cat` is an
+  *instance* of the class `Cat`.
+
+Instantiate
+  Create a new `instance` of a given class.
+  When `my_cat` has kittens, she is instantiating
+  several new instances of the class `Cat`.
+  (Please spay our neuter your pets!)
+
+Object-oriented programming
+  Programming that makes use of classes_ and objects_.
+
+Program Structure
+-----------------
+
+.. _module:
+
+Module
+  A single file of Python commands.  Calling it a
+  module implies we plan to "import" it, not just
+  call it on its own.
+
+.. _package:
+
+Package
+  A directory full of modules that can all together
+  be referred to by the package's name.
+
+Import
+  Make the contents of a module_ or package_ available
+  in your current program, even though it comes outside
+  your current program's file.
+
+Tools
+-----
+
+.. _editor:
+
+Editor
+  A program to create or change files.  We usually mean
+  *text editor*, since a Python program is a kind of
+  text file.  Notepad is an example of an editor
+  (but don't use Notepad to edit Python, it can
+  introduce mistakes into your Python programs;
+  `Notepad++`_ is a good alternative).
+
+.. _`Notepad++`: https://notepad-plus-plus.org/
+
+IDE
+  Abbreviation for Integrated Development Environment.
+  A kind of text editor_ with programming-related
+  superpowers.
+
+.. git_:
+
+Git
+  A program for `vesion control`_.
+
+Mercurial
+  A `version control`_ tool.  It's less popular than
+  git_, even though it's written in pure Python,
+  but accomplishes basically the same things.
+
+Database
+  A place to store data outside the program,
+  possibly in memory ("in-memory databases")
+  but generally on disk.  A file on disk could
+  be considered a *very simple* database, but
+  we usually mean much more advanced programs.
+
+.. _`relational database`:
+
+Relational database
+  A very common kind of database that's good
+  at retrieving data that have relationships
+  to one another.  For instance, a question like
+  "How expensive is the cat food brand that most
+  of my cats prefer?" is usually easier to answer
+  in a relational database than in other types
+  of database.
+
+RDBMS
+  Relational database management system - basically
+  a synonym for `relational database`.
+
+SQL
+  The specialized language usually used to get
+  and manipulate data in a `relational database`_.
+
+SQL database
+  More or less a synonym for `relational database`_.
+
+.. _`non-relational database`:
+  An alternative to a `relational database`.  It's
+  generally easier to use and often faster to run,
+  but has its own disadvantages for complex kinds
+  of data access.
+
+.. `NoSQL database`:
+  More or less a synonym for `non_relational database`_.
+
+Techniques
+----------
+
+.. _`version control`:
+
+Version Control
+  Tools and techniques for keeping track of the
+  changes in files in a reversible way.  More
+  importantly, it helps people cooperate on
+  changes to a file without ruining each others'
+  work.
+
+Testing
+  To programmers, them means scripts that verify
+  that a program works
+
+Regression test
+  Tests to make sure that one part of a program
+  doesn't get worse - *regress* - as improvements
+  aren't made to a different part.  All of our
+  tests could generally be considered regression
+  tests.
+
+.. _`unit test`:
+
+Unit Test
+  A fine-scale test that works directly on one small
+  piece
+  of a program, at a scale finer than the end-user
+  will directly see.  Contrast `functional test`_.
+
+.. _`functional test`:
+
+Functional test
+  A test that makes sure a program is working from
+  the user's point of view.  Contrast `unit test`_.
+
+Test-Driven Development
+  A style of development where you first write the
+  tests saying what you want the program to do -
+  even before the program exists.  Then you write
+  the code until the tests no longer fail.
+
+Agile Development
+  TODO
+
+Architecture
+------------
 
 API
   TODO
@@ -52,28 +314,4 @@ Deploy
   TODO
 
 Continuous Integration
-  TODO
-
-Testing
-  TODO
-
-Unit test
-  TODO
-
-Functional test
-  TODO
-
-Database
-  TODO
-
-Relational Database
-  TODO
-
-NoSQL Database
-  TODO
-
-SQL
-  TODO
-
-Function
   TODO
