@@ -445,7 +445,20 @@ Corner Case
   are classifying cats by their eye color, a cat with
   two different-color eyes may be a corner case that
   disrupts your classification scheme.
-  
+
+Packaging
+---------
+
+PyPI
+  `PyPI <https://pypi.python.org/pypi>`_, also known as *The Cheeseshop*,
+  is the "Python Packaging Index". It's where you can publish and download
+  open source Python packages.
+
+pip
+  `pip <https://pip.pypa.io/en/latest/index.html>`_ is the recommended tool
+  for installing Python packages and is preferred over
+  `easy_install <https://pypi.python.org/pypi/setuptools>`_.
+
 Architecture
 ------------
 
