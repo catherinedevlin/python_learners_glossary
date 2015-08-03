@@ -268,17 +268,6 @@ IDE
   superpowers; a program that lets you build more programs.
   Examples include Eclipse, Sublime, Wingware, and IDLE
 
-
-.. git_:
-
-Git
-  A program for `vesion control`_.
-
-Mercurial
-  A `version control`_ tool.  It's less popular than
-  git_, even though it's written in pure Python,
-  but accomplishes basically the same things.
-
 Database
   A place to store data outside the program,
   possibly in memory ("in-memory databases")
@@ -349,6 +338,7 @@ Version Control
   changes to a file without ruining each others'
   work.
 
+.. _issue:
 .. _issues:
 
 Issue
@@ -387,17 +377,18 @@ Pull Request
   owner to incorporate ("pull") your changes into the
   original repository.
 
-git
+Git
   The most popular program for version control.
 
-mercurial
+Mercurial
   Another version control program
 
-github
-  A commercial service that hosts version control
+Github
+  The most popular commercial service that
+  hosts version control
   repositories_ online.
 
-bitbucket
+Bitbucket
   Another commercial service for hosting version
   control repositories_.
 
@@ -445,7 +436,7 @@ Corner Case
   are classifying cats by their eye color, a cat with
   two different-color eyes may be a corner case that
   disrupts your classification scheme.
-  
+
 Architecture
 ------------
 
