@@ -506,6 +506,535 @@ Build Server
 `Continuous Integration`_
   TODO
 
+More words to define
+--------------------
+
+GIL
+  TODO
+  
+PEP
+  TODO
+  
+PEP 8
+  TODO
+  
+program
+  TODO
+  
+script
+  TODO
+  
+scripting language
+  TODO
+  
+regex
+  TODO
+  
+pickle
+  TODO
+  
+socket
+  TODO
+  
+thread
+  TODO
+  
+virtualenv
+  TODO
+  
+kit
+  TODO
+  
+hash
+  TODO
+  
+commit
+  TODO
+  
+branch
+  TODO
+  
+polymorphism
+  TODO
+  
+inheritance
+  TODO
+  
+bytecode
+  TODO
+  
+serialize
+  TODO
+  
+JSON
+  TODO
+  
+YAML
+  TODO
+  
+XML
+  TODO
+  
+HTML
+  TODO
+  
+CSS
+  TODO
+  
+dependency injection
+  TODO
+  
+repr
+  TODO
+  
+queue
+  TODO
+  
+event
+  TODO
+  
+message
+  TODO
+  
+GUI
+  TODO
+  
+command line
+  TODO
+  
+loop
+  TODO
+  
+list comprehension
+  TODO
+  
+lambda
+  TODO
+  
+closure
+  TODO
+  
+generator
+  TODO
+  
+coroutine
+  TODO
+
+blocking
+  TODO
+
+lock
+  TODO
+  
+mutex
+  TODO
+  
+semaphore
+  TODO
+  
+signal
+  TODO
+  
+bit
+  TODO
+  
+callable
+  TODO
+  
+namespace
+  TODO
+  
+file object
+  TODO
+  
+query
+  TODO
+  
+comment
+  TODO
+  
+code
+  TODO
+  
+cron
+  TODO
+  
+constant
+  TODO
+  
+C API
+  TODO
+  
+utf-8
+  TODO
+  
+ascii
+  TODO
+  
+encoding
+  TODO
+  
+code point
+  TODO
+  
+hex
+  TODO
+  
+binary
+  TODO
+  
+octal
+  TODO
+  
+source
+  TODO
+  
+NLTK
+  TODO
+  
+MVC
+  TODO
+  
+file extension
+  TODO
+  
+functional programming
+  TODO
+  
+higher-order function
+  TODO
+  
+first-class value
+  TODO
+  
+indentation
+  TODO
+  
+SQL injection
+  TODO
+
+decorator
+  TODO
+  
+code object
+  TODO
+  
+frame
+  TODO
+  
+traceback
+  TODO
+  
+statement
+  TODO
+  
+standard library
+  TODO
+  
+IDLE
+  TODO
+  
+twisted
+  TODO
+  
+django
+  TODO
+  
+flask
+  TODO
+  
+requests
+  TODO
+  
+scipy
+  TODO
+  
+numpy
+  TODO
+  
+pandas
+  TODO
+  
+matplotlib
+  TODO
+  
+ipython
+  TODO
+  
+jupyter
+  TODO
+  
+setup.py
+  TODO
+  
+mutable
+  TODO
+  
+immutable
+  TODO
+  
+unicode
+  TODO
+  
+byte
+  TODO
+  
+byte string
+  TODO
+  
+array
+  TODO
+  
+CPython
+  TODO
+  
+PyPy
+  TODO
+  
+Jython
+  TODO
+  
+Cython
+  TODO
+  
+ctypes
+  TODO
+  
+cffi
+  TODO
+  
+compile
+  TODO
+  
+interpret
+  TODO
+  
+syntax
+  TODO
+  
+integration test
+  TODO
+  
+load test
+  TODO
+  
+performance test
+  TODO
+  
+acceptance test
+  TODO
+  
+mock
+  TODO
+  
+stub
+  TODO
+  
+fake
+  TODO
+  
+test double
+  TODO
+  
+coverage
+  TODO
+  
+alpha
+  TODO
+  
+beta
+  TODO
+  
+release candidate
+  TODO
+  
+semantic versioning
+  TODO
+  
+sphinx
+  TODO
+  
+ReST
+  TODO
+  
+rst
+  TODO
+  
+documentation
+  TODO
+  
+docstring
+  TODO
+  
+doctest
+  TODO
+  
+concatenation
+  TODO
+  
+slice
+  TODO
+  
+index
+  TODO
+  
+item
+  TODO
+  
+property
+  TODO
+  
+descriptor
+  TODO
+  
+metaclass
+  TODO
+  
+emacs
+  TODO
+  
+vim
+  TODO
+  
+pycharm
+  TODO
+  
+sublime
+  TODO
+  
+exception
+  TODO
+  
+catch
+  TODO
+  
+raise
+  TODO
+  
+error
+  TODO
+  
+CSV
+  TODO
+  
+server
+  TODO
+  
+client
+  TODO
+  
+protocol
+  TODO
+  
+network
+  TODO
+  
+import
+  TODO
+  
+synchronous
+  TODO
+  
+asynchronous
+  TODO
+  
+type
+  TODO
+  
+type checking
+  TODO
+  
+duck typing
+  TODO
+  
+DSL
+  TODO
+  
+subclass
+  TODO
+  
+superclass
+  TODO
+  
+mixin
+  TODO
+  
+multiple inheritance
+  TODO
+  
+interface
+  TODO
+  
+abstract class
+  TODO
+  
+static method
+  TODO
+  
+operating system
+  TODO
+  
+Windows
+  TODO
+  
+Linux
+  TODO
+  
+Ubuntu
+  TODO
+  
+pastebin
+  TODO
+  
+IRC
+  TODO
+  
+operator
+  TODO
+  
+operation
+  TODO
+  
+object-oriented
+  TODO
+  
+use case
+  TODO
+  
+requirements
+  TODO
+  
+recursion
+  TODO
+  
+iteration
+  TODO
+  
+garbage collection
+  TODO
+  
+memory management
+  TODO
+  
+reference
+  TODO
+  
+c extension
+  TODO
+  
+factory
+  TODO
+  
+portable
+  TODO
+  
+pythonic
+  TODO
+  
+singleton
+  TODO
+
+
 .. _`Module`: http://docs.python-guide.org/en/latest/writing/structure/#modules
 
 .. _`Object-oriented programming`: http://docs.python-guide.org/en/latest/writing/structure/#object-oriented-programming
