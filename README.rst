@@ -45,6 +45,20 @@ Data
 Value
   A single piece of data, like ``3`` or ``'Fluffy'``
 
+.. _literal:
+
+Literal
+  A representation of a value *as the value itself*, as
+  opposed to the result of a function_ or expression_.
+
+  ::
+
+    "Whiskers"  # a string literal
+    'Whiskers'  # a string literal
+    1  # an integer literal
+    1.5  # a float literal
+    ["Whiskers", 10]  # a list literal
+
 String
   A piece of text data, like ``'hello'``.  Enclosing it
   in quotation marks
@@ -68,6 +82,8 @@ Variable
 
 Assign
   Give a name to a value_, making a variable_.
+
+.. _expression:
 
 Expression
   A description of a value that contains
