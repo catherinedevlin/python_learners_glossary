@@ -218,7 +218,9 @@ Attribute
 .. _classes:
 
 Class
-  TODO
+  A code template, used for creating and initializing
+  an object_ with pre-defined data, and for providing
+  code to operate on that object's data.
 
 Instance
   An object_ of a given class_.  `my_cat` is an
@@ -323,7 +325,10 @@ SQL database
   More or less a synonym for `non_relational database`_.
 
 REPL
-  TODO
+  An interactive programming language interpreter that
+  allows a user to type in statements which are immediately
+  evaluated.
+  The term REPL is an acronym for *Read-Evaluate-Print-Loop*.
 
 Techniques
 ----------
@@ -345,7 +350,14 @@ Refactor
   maintain, etc.
 
 Agile Development
-  TODO
+  A systematic approach to software development that
+  emphasizes short, concentrated periods of work on specific
+  features or enhancements, where such features are delivered
+  independently of the project at large
+
+  Contrast with the `Waterfall Model`_.
+
+.. _`Waterfall model`: https://en.wikipedia.org/wiki/Waterfall_model
 
 Version Control
 ---------------
@@ -383,12 +395,15 @@ Repo
   Abbreviation for repository_.
 
 Branch
-  TODO
+  A parallel version of a repository, generally used for
+  making and testing changes to a code base in a safe,
+  non-destructive way.
 
 .. _fork:
 
 Fork
-  TODO
+  A copy of an existing code base, developed independently
+  of the original code base.
 
 .. _pull request:
 .. _pull requests:
