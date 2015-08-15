@@ -52,13 +52,13 @@ Comment
   your code_ much easier than if they weren't
   present.
 
-Numeric systems
+Numeral systems
 ---------------
 
 .. _decimal:
 
 Decimal
-  A numeric system of base 10, which means it has 10
+  A numeral system of base 10, which means it has 10
   digits to represent numbers. As long as you only
   have ten digits, your system can be called decimal,
   but it is conventional to use from 0 to 9.
@@ -70,7 +70,7 @@ Decimal
 .. _binary:
 
 Binary
-  A numeric system of base 2, which means it has 2
+  A numeral system of base 2, which means it has 2
   digits to represent numbers. As long as you only
   have two digits, your system can be called binary,
   but it is conventional to use 0 and 1.
@@ -80,7 +80,7 @@ Binary
 .. _octal:
 
 Octal
-  A numeric system of base 8, which means it has 8
+  A numeral system of base 8, which means it has 8
   digits to represent numbers. As long as you only
   have eight digits, your system can be called octal,
   but it is conventional to use from 0 to 7.
@@ -91,7 +91,7 @@ Octal
 .. _hex:
 
 Hexadecimal
-  A numeric system of base 16, which means it has 16
+  A numeral system of base 16, which means it has 16
   digits to represent numbers. As long as you only
   have sixteen digits, your system can be called
   hexadecimal, but it is conventional to use from
