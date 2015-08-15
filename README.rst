@@ -543,7 +543,8 @@ Build Server
 `Continuous Integration`_
   TODO
 
-.. _web:
+Web
+---
 
 HTML
   Markup language used by default by most of the Web.
