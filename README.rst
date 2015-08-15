@@ -388,7 +388,13 @@ Branch
 .. _fork:
 
 Fork
-  TODO
+  To copy over source code from a project and start
+  independent work on it, usually because of
+  different perspectives on how the program
+  should be developed. A project that started this
+  way, by basing itself over another project's
+  source, is called a fork.
+  (i. e. Pale Moon is a fork of Mozilla Firefox)
 
 .. _pull request:
 .. _pull requests:
