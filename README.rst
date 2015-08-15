@@ -37,6 +37,21 @@ Execute
   Go.  Run.  Do that thing you do.  Nothing to do
   with beheading anybody.
 
+.. _code:
+
+Code
+  Collection of computer instructions in a human-readable
+  computer/programming language.
+
+.. _comment:
+.. _comments:
+
+Comment
+  To clarify something in the middle of a piece
+  of code_. If used properly can make understanding
+  your code_ much easier than if they weren't
+  present.
+
 Data
 ----
 
@@ -676,12 +691,6 @@ file object
   TODO
   
 query
-  TODO
-  
-comment
-  TODO
-  
-code
   TODO
   
 cron
