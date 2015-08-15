@@ -522,6 +522,13 @@ Build Server
 `Continuous Integration`_
   TODO
 
+.. _web:
+
+HTML
+  Markup language used by default by most of the Web.
+  Has tags for various kinds of elements, graphical
+  or not. Stands for Hyper Text Markup Language
+
 More words to define
 --------------------
 
@@ -589,9 +596,6 @@ YAML
   TODO
   
 XML
-  TODO
-  
-HTML
   TODO
   
 CSS
