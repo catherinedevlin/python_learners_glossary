@@ -535,6 +535,11 @@ HTML
   Has tags for various kinds of elements, graphical
   or not. Stands for Hyper Text Markup Language
 
+CSS
+  Descriptive language to style markup elements.
+  Usually used with HTML to style its various
+  tags. Stands for Cascading Style Sheet
+
 More words to define
 --------------------
 
@@ -602,9 +607,6 @@ YAML
   TODO
   
 XML
-  TODO
-  
-CSS
   TODO
   
 dependency injection
