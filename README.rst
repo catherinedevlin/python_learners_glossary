@@ -38,6 +38,68 @@ Execute
   Go.  Run.  Do that thing you do.  Nothing to do
   with beheading anybody.
 
+.. _code:
+
+Code
+  Collection of computer instructions in a human-readable
+  computer/programming language.
+
+.. _comment:
+.. _comments:
+
+Comment
+  To clarify something in the middle of a piece
+  of code_. If used properly can make understanding
+  your code_ much easier than if they weren't
+  present.
+
+Numeral systems
+---------------
+
+.. _decimal:
+
+Decimal
+  A numeral system of base 10, which means it has 10
+  digits to represent numbers. As long as you only
+  have ten digits, your system can be called decimal,
+  but it is conventional to use from 0 to 9.
+
+  It is the standard today.
+
+  Example: 20 octal_ is 16 decimal_
+
+.. _binary:
+
+Binary
+  A numeral system of base 2, which means it has 2
+  digits to represent numbers. As long as you only
+  have two digits, your system can be called binary,
+  but it is conventional to use 0 and 1.
+
+  Example: 12 octal_ is 1010 binary_
+
+.. _octal:
+
+Octal
+  A numeral system of base 8, which means it has 8
+  digits to represent numbers. As long as you only
+  have eight digits, your system can be called octal,
+  but it is conventional to use from 0 to 7.
+
+  Example: 80 decimal_ is 120 octal_
+
+.. _hexadecimal:
+.. _hex:
+
+Hexadecimal (or Hex)
+  A numeral system of base 16, which means it has 16
+  digits to represent numbers. As long as you only
+  have sixteen digits, your system can be called
+  hexadecimal, but it is conventional to use from
+  0 to 9 and A to F.
+
+  Example: 123 decimal_ is 7B hex_
+
 Data
 ----
 
@@ -468,7 +530,13 @@ Branch
 .. _fork:
 
 Fork
-  TODO
+  To copy over source code from a project and start
+  independent work on it, usually because of
+  different perspectives on how the program
+  should be developed. A project that started this
+  way, by basing itself over another project's
+  source, is called a fork.
+  (i. e. Pale Moon is a fork of Mozilla Firefox)
 
 .. class:: basic version_control
 .. _pull request:
@@ -638,6 +706,19 @@ Build Server
 `Continuous Integration`_
   TODO
 
+Web
+---
+
+HTML
+  Markup language used by default by most of the Web.
+  Has tags for various kinds of elements, graphical
+  or not. Stands for Hyper Text Markup Language
+
+CSS
+  Descriptive language to style markup elements.
+  Usually used with HTML to style its various
+  tags. Stands for Cascading Style Sheet
+
 More words to define
 --------------------
 
@@ -705,12 +786,6 @@ YAML
   TODO
 
 XML
-  TODO
-
-HTML
-  TODO
-
-CSS
   TODO
 
 dependency injection
@@ -782,12 +857,6 @@ file object
 query
   TODO
 
-comment
-  TODO
-
-code
-  TODO
-
 cron
   TODO
 
@@ -807,15 +876,6 @@ encoding
   TODO
 
 code point
-  TODO
-
-hex
-  TODO
-
-binary
-  TODO
-
-octal
   TODO
 
 source
