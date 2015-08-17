@@ -28,9 +28,10 @@ a consistent, familiar theme: cats.
 Glossary
 ========
 
-Basic
------
+General
+-------
 
+.. class:: basic general
 .. _execute:
 
 Execute
@@ -40,11 +41,13 @@ Execute
 Data
 ----
 
+.. class:: basic data
 .. _value:
 
 Value
   A single piece of data, like ``3`` or ``'Fluffy'``
 
+.. class:: basic data
 .. _literal:
 
 Literal
@@ -59,15 +62,21 @@ Literal
     1.5  # a float literal
     ["Whiskers", 10]  # a list literal
 
+.. class:: basic data
+
 String
   A piece of text data, like ``'hello'``.  Enclosing it
   in quotation marks
   tells Python that it's a string and not something like
   a variable_ name.
 
+.. class:: basic data
+
 Float
   Short for *floating-point number*, a number with a
   decimal point.
+
+.. class:: basic data
 
 .. _variable:
 
@@ -80,9 +89,12 @@ Variable
 
   Now ``cat_name`` is a *variable* with the value_ 'Fluffy'.
 
+.. class:: basic data
+
 Assign
   Give a name to a value_, making a variable_.
 
+.. class:: basic data
 .. _expression:
 
 Expression
@@ -98,9 +110,12 @@ Expression
       'lazy ' + 'cat'  # Evaluates to 'lazy cat'
       2 * 2 > 100  # Evaluates to ``False``
 
+.. class:: basic data
+
 Boolean
   ``True`` or ``False``.
 
+.. class:: basic data
 .. _list:
 
 List
@@ -110,6 +125,8 @@ List
   ::
 
       ['Mouser', 17, 'Whiskers']
+
+.. class:: basic data
 
 Tuple
   A series of values.  Python will remember what order they
@@ -123,6 +140,8 @@ Tuple
 
       ('Mouser', 17, 'Whiskers')
 
+.. class:: basic data
+
 Set
   Just like in mathematics - a group of values.  Python
   will *not* necessarily remember what order they came
@@ -131,6 +150,7 @@ Set
 Functions
 ---------
 
+.. class:: basic functions
 .. _function:
 
 Function
@@ -143,6 +163,7 @@ Function
           kg_of_food = kg_of_food - 0.1
           kg_of_cat = kg_of_cat + 0.1
 
+.. class:: basic functions
 .. _call:
 .. _called:
 
@@ -156,6 +177,7 @@ Call
 
       feed_cat(8.0, 3.0)
 
+.. class:: basic functions
 .. _argument:
 .. _arguments:
 
@@ -164,6 +186,8 @@ Argument
   function_ as you call_ it.  In our ``feed_cat``
   function_, ``kg_of_food`` and ``kg_of_cat`` are
   the function's arguments.
+
+.. class:: basic functions
 
 Parameter
   Synonym for argument_.
@@ -176,6 +200,7 @@ Return
 Object-oriented
 ---------------
 
+.. class:: basic object-oriented
 .. _object:
 .. _objects:
 
@@ -184,6 +209,7 @@ Object
   in this context) and variables
   (called "attributes_" in this context).
 
+.. class:: basic object-oriented
 .. _method:
 .. _methods:
 
@@ -201,6 +227,7 @@ Method
   kind of animal should speak, because it already
   knows that it belongs to `my_cat`.
 
+.. class:: basic object-oriented
 .. attribute_:
 .. attributes_:
 
@@ -214,15 +241,20 @@ Attribute
       my_cat.name
       'Agamemnon'
 
+.. class:: basic object-oriented
 .. _class:
 .. _classes:
 
 Class
   TODO
 
+.. class:: basic object-oriented
+
 Instance
   An object_ of a given class_.  `my_cat` is an
   *instance* of the class `Cat`.
+
+.. class:: intermediate object-oriented
 
 Instantiate
   Create a new `instance` of a given class.
@@ -230,13 +262,19 @@ Instantiate
   several new instances of the class `Cat`.
   (Please spay our neuter your pets!)
 
+.. class:: basic object-oriented
+
 `Object-oriented programming`_
   Programming that makes use of classes_ and objects_.
+
+.. class:: intermediate object-oriented
 
 Dunder
   The two underscores before and after a method name to
   indicate that it is "magic", i.e. __init__, __new__, etc.
   (Short for "Double-underscore")
+
+.. class:: intermediate object-oriented
 
 Magic Method
   Methods that can be used to change the normal
@@ -245,6 +283,7 @@ Magic Method
 Program Structure
 -----------------
 
+.. class:: basic program_structure
 .. _module:
 
 `Module`_
@@ -252,11 +291,14 @@ Program Structure
   module implies we plan to "import" it, not just
   call it on its own.
 
+.. class:: basic program_structure
 .. _package:
 
 `Package`_
   A directory full of modules that can all together
   be referred to by the package's name.
+
+.. class:: basic program_structure
 
 Import
   Make the contents of a module_ or package_ available
@@ -266,6 +308,7 @@ Import
 Tools
 -----
 
+.. class:: basic tools
 .. _editor:
 
 Editor
@@ -278,11 +321,15 @@ Editor
 
 .. _`Notepad++`: https://notepad-plus-plus.org/
 
+.. class:: basic tools
+
 `IDE`_
   Abbreviation for Integrated Development Environment.
   A kind of text editor_ with programming-related
   superpowers; a program that lets you build more programs.
   Examples include Eclipse, Sublime, Wingware, and IDLE
+
+.. class:: basic tools
 
 `Database`_
   A place to store data outside the program,
@@ -290,6 +337,8 @@ Editor
   but generally on disk.  A file on disk could
   be considered a *very simple* database, but
   we usually mean much more advanced programs.
+
+.. class:: intermediate tools
 
 .. _`relational database`:
 
@@ -302,16 +351,24 @@ Relational database
   in a relational database than in other types
   of database.
 
+.. class:: intermediate tools
+
 RDBMS
   Relational database management system - basically
   a synonym for `relational database`.
+
+.. class:: basic tools
 
 SQL
   The specialized language usually used to get
   and manipulate data in a `relational database`_.
 
+.. class:: intermediate tools
+
 SQL database
   More or less a synonym for `relational database`_.
+
+.. class:: intermediate tools
 
 .. _`non-relational database`:
   An alternative to a `relational database`.  It's
@@ -319,14 +376,20 @@ SQL database
   but has its own disadvantages for complex kinds
   of data access.
 
+.. class:: intermediate tools
+
 .. `NoSQL database`:
   More or less a synonym for `non_relational database`_.
+
+.. class:: intermediate tools
 
 REPL
   TODO
 
 Techniques
 ----------
+
+.. class:: basic techniques
 
 .. _bug:
 .. _bugs:
@@ -335,8 +398,12 @@ Bug
   A mistake in software that makes it crash or
   behave badly.
 
+.. class:: basic techniques
+
 Debug
-  Fix bugs_
+  Find and fix bugs_ in code_
+
+.. class:: basic techniques
 
 Refactor
   Change a program so that the functionality seems
@@ -344,11 +411,15 @@ Refactor
   code itself is better - easier to read, understand,
   maintain, etc.
 
+.. class:: basic techniques
+
 Agile Development
   TODO
 
 Version Control
 ---------------
+
+.. class:: basic version_control
 
 Version Control
   Tools and techniques for keeping track of the
@@ -357,6 +428,7 @@ Version Control
   changes to a file without ruining each others'
   work.
 
+.. class:: basic version_control
 .. _issue:
 .. _issues:
 
@@ -366,10 +438,13 @@ Issue
   ("enhancement").  Issues are usually filed
   in a project's `bug tracker`_.
 
+.. class:: basic version_control
+
 Bug report
   A category of issue_ for notifying the programmers
   of a bug_
 
+.. class:: basic version_control
 .. _repository:
 .. _repositories:
 
@@ -379,17 +454,23 @@ Repository
   we mean someplace on line, usually at a service like
   github_.
 
+.. class:: basic version_control
+
 Repo
   Abbreviation for repository_.
+
+.. class:: basic version_control
 
 Branch
   TODO
 
+.. class:: basic version_control
 .. _fork:
 
 Fork
   TODO
 
+.. class:: basic version_control
 .. _pull request:
 .. _pull requests:
 
@@ -399,16 +480,24 @@ Pull Request
   owner to incorporate ("pull") your changes into the
   original repository.
 
+.. class:: basic version_control
+
 Git
   The most popular program for version control.
 
+.. class:: intermediate version_control
+
 Mercurial
   Another version control program
+
+.. class:: basic version_control
 
 Github
   The most popular commercial service that
   hosts version control
   repositories_ online.
+
+.. class:: intermediate version_control
 
 Bitbucket
   Another commercial service for hosting version
@@ -417,12 +506,16 @@ Bitbucket
 Testing
 -------
 
+.. class:: basic testing
+
 Testing
   To programmers, them means scripts that verify
   that a program works as desired automatically.
   We rarely talk about non-automated, direct human
   testing, because it's soul-sucking and can't keep
   up with our speed of generating bugs_.
+
+.. class:: intermediate testing
 
 Regression test
   Tests to make sure that one part of a program
@@ -431,6 +524,7 @@ Regression test
   tests could generally be considered regression
   tests.
 
+.. class:: basic testing
 .. _`unit test`:
 
 Unit Test
@@ -439,17 +533,22 @@ Unit Test
   of a program, at a scale finer than the end-user
   will directly see.  Contrast `functional test`_.
 
+.. class:: basic testing
 .. _`functional test`:
 
 Functional test
   A test that makes sure a program is working from
   the user's point of view.  Contrast `unit test`_.
 
+.. class:: basic testing
+
 Test-Driven Development
   A style of development where you first write the
   tests saying what you want the program to do -
   even before the program exists.  Then you write
   the code until the tests no longer fail.
+
+.. class:: intermediate testing
 
 Corner Case
   A situation that's likely to show bugs_ in code
@@ -462,10 +561,14 @@ Corner Case
 Packaging
 ---------
 
+.. class:: basic packaging
+
 PyPI
   `PyPI <https://pypi.python.org/pypi>`_, pronounced "Pie-Pee-Eye" and also
   known as *The Cheeseshop*, is the "Python Packaging Index".
   It is where you can publish and download open source Python packages.
+
+.. class:: basic packaging
 
 pip
   `pip <https://pip.pypa.io/en/latest/index.html>`_ is the recommended tool
@@ -474,6 +577,8 @@ pip
 
 Architecture
 ------------
+
+.. class:: intermediate architecture
 
 API
   Shorthand for "application programmer interface".
@@ -492,16 +597,21 @@ API
 Operations
 ----------
 
+.. class:: basic operations
+
 Operations
   Activities related to deploy_ing software and
   keeping it running on its destination servers.
+
+.. class:: basic operations
 
 DevOps
   Philosophy and tools for operations_ that try to
   make the process as automatic and failsafe as
   possible by imitating software developers' tools
-  and techniqes.
+  and techniques.
 
+.. class:: basic operations
 .. _deploy:
 
 Deploy
@@ -513,11 +623,17 @@ Deploy
   be on the web. That last step to make it so that
   other people can reach it is called "deployment"
 
+.. class:: basic operations
+
 Build
   TODO
 
+.. class:: intermediate operations
+
 Build Server
   TODO
+
+.. class:: intermediate operations
 
 `Continuous Integration`_
   TODO
@@ -527,112 +643,112 @@ More words to define
 
 GIL
   TODO
-  
+
 PEP
   TODO
-  
+
 PEP 8
   TODO
-  
+
 program
   TODO
-  
+
 script
   TODO
-  
+
 scripting language
   TODO
-  
+
 regex
   TODO
-  
+
 pickle
   TODO
-  
+
 socket
   TODO
-  
+
 thread
   TODO
-  
+
 virtualenv
   TODO
-  
+
 kit
   TODO
-  
+
 hash
   TODO
-  
+
 commit
   TODO
-  
+
 branch
   TODO
-  
+
 polymorphism
   TODO
-  
+
 inheritance
   TODO
-  
+
 bytecode
   TODO
-  
+
 serialize
   TODO
-  
+
 JSON
   TODO
-  
+
 YAML
   TODO
-  
+
 XML
   TODO
-  
+
 HTML
   TODO
-  
+
 CSS
   TODO
-  
+
 dependency injection
   TODO
-  
+
 repr
   TODO
-  
+
 queue
   TODO
-  
+
 event
   TODO
-  
+
 message
   TODO
-  
+
 GUI
   TODO
-  
+
 command line
   TODO
-  
+
 loop
   TODO
-  
+
 list comprehension
   TODO
-  
+
 lambda
   TODO
-  
+
 closure
   TODO
-  
+
 generator
   TODO
-  
+
 coroutine
   TODO
 
@@ -641,412 +757,412 @@ blocking
 
 lock
   TODO
-  
+
 mutex
   TODO
-  
+
 semaphore
   TODO
-  
+
 signal
   TODO
-  
+
 bit
   TODO
-  
+
 callable
   TODO
-  
+
 namespace
   TODO
-  
+
 file object
   TODO
-  
+
 query
   TODO
-  
+
 comment
   TODO
-  
+
 code
   TODO
-  
+
 cron
   TODO
-  
+
 constant
   TODO
-  
+
 C API
   TODO
-  
+
 utf-8
   TODO
-  
+
 ascii
   TODO
-  
+
 encoding
   TODO
-  
+
 code point
   TODO
-  
+
 hex
   TODO
-  
+
 binary
   TODO
-  
+
 octal
   TODO
-  
+
 source
   TODO
-  
+
 NLTK
   TODO
-  
+
 MVC
   TODO
-  
+
 file extension
   TODO
-  
+
 functional programming
   TODO
-  
+
 higher-order function
   TODO
-  
+
 first-class value
   TODO
-  
+
 indentation
   TODO
-  
+
 SQL injection
   TODO
 
 decorator
   TODO
-  
+
 code object
   TODO
-  
+
 frame
   TODO
-  
+
 traceback
   TODO
-  
+
 statement
   TODO
-  
+
 standard library
   TODO
-  
+
 IDLE
   TODO
-  
+
 twisted
   TODO
-  
+
 django
   TODO
-  
+
 flask
   TODO
-  
+
 requests
   TODO
-  
+
 scipy
   TODO
-  
+
 numpy
   TODO
-  
+
 pandas
   TODO
-  
+
 matplotlib
   TODO
-  
+
 ipython
   TODO
-  
+
 jupyter
   TODO
-  
+
 setup.py
   TODO
-  
+
 mutable
   TODO
-  
+
 immutable
   TODO
-  
+
 unicode
   TODO
-  
+
 byte
   TODO
-  
+
 byte string
   TODO
-  
+
 array
   TODO
-  
+
 CPython
   TODO
-  
+
 PyPy
   TODO
-  
+
 Jython
   TODO
-  
+
 Cython
   TODO
-  
+
 ctypes
   TODO
-  
+
 cffi
   TODO
-  
+
 compile
   TODO
-  
+
 interpret
   TODO
-  
+
 syntax
   TODO
-  
+
 integration test
   TODO
-  
+
 load test
   TODO
-  
+
 performance test
   TODO
-  
+
 acceptance test
   TODO
-  
+
 mock
   TODO
-  
+
 stub
   TODO
-  
+
 fake
   TODO
-  
+
 test double
   TODO
-  
+
 coverage
   TODO
-  
+
 alpha
   TODO
-  
+
 beta
   TODO
-  
+
 release candidate
   TODO
-  
+
 semantic versioning
   TODO
-  
+
 sphinx
   TODO
-  
+
 ReST
   TODO
-  
+
 rst
   TODO
-  
+
 documentation
   TODO
-  
+
 docstring
   TODO
-  
+
 doctest
   TODO
-  
+
 concatenation
   TODO
-  
+
 slice
   TODO
-  
+
 index
   TODO
-  
+
 item
   TODO
-  
+
 property
   TODO
-  
+
 descriptor
   TODO
-  
+
 metaclass
   TODO
-  
+
 emacs
   TODO
-  
+
 vim
   TODO
-  
+
 pycharm
   TODO
-  
+
 sublime
   TODO
-  
+
 exception
   TODO
-  
+
 catch
   TODO
-  
+
 raise
   TODO
-  
+
 error
   TODO
-  
+
 CSV
   TODO
-  
+
 server
   TODO
-  
+
 client
   TODO
-  
+
 protocol
   TODO
-  
+
 network
   TODO
-  
+
 import
   TODO
-  
+
 synchronous
   TODO
-  
+
 asynchronous
   TODO
-  
+
 type
   TODO
-  
+
 type checking
   TODO
-  
+
 duck typing
   TODO
-  
+
 DSL
   TODO
-  
+
 subclass
   TODO
-  
+
 superclass
   TODO
-  
+
 mixin
   TODO
-  
+
 multiple inheritance
   TODO
-  
+
 interface
   TODO
-  
+
 abstract class
   TODO
-  
+
 static method
   TODO
-  
+
 operating system
   TODO
-  
+
 Windows
   TODO
-  
+
 Linux
   TODO
-  
+
 Ubuntu
   TODO
-  
+
 pastebin
   TODO
-  
+
 IRC
   TODO
-  
+
 operator
   TODO
-  
+
 operation
   TODO
-  
+
 object-oriented
   TODO
-  
+
 use case
   TODO
-  
+
 requirements
   TODO
-  
+
 recursion
   TODO
-  
+
 iteration
   TODO
-  
+
 garbage collection
   TODO
-  
+
 memory management
   TODO
-  
+
 reference
   TODO
-  
+
 c extension
   TODO
-  
+
 factory
   TODO
-  
+
 portable
   TODO
-  
+
 pythonic
   TODO
-  
+
 singleton
   TODO
 
