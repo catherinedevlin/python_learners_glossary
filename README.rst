@@ -308,7 +308,9 @@ Attribute
 .. _classes:
 
 Class
-  TODO
+  A code template, used for creating and initializing
+  an object_ with pre-defined data, and for providing
+  code to operate on that object's data.
 
 .. class:: basic object-oriented
 
@@ -446,7 +448,10 @@ SQL database
 .. class:: intermediate tools
 
 REPL
-  TODO
+  An interactive programming language interpreter that
+  allows a user to type in statements which are immediately
+  evaluated.
+  The term REPL is an acronym for *Read-Evaluate-Print-Loop*.
 
 Techniques
 ----------
@@ -476,7 +481,14 @@ Refactor
 .. class:: basic techniques
 
 Agile Development
-  TODO
+  A systematic approach to software development that
+  emphasizes short, concentrated periods of work on specific
+  features or enhancements, where such features are delivered
+  independently of the project at large
+
+  Contrast with the `Waterfall Model`_.
+
+.. _`Waterfall model`: https://en.wikipedia.org/wiki/Waterfall_model
 
 Version Control
 ---------------
@@ -524,7 +536,9 @@ Repo
 .. class:: basic version_control
 
 Branch
-  TODO
+  A parallel version of a repository, generally used for
+  making and testing changes to a code base in a safe,
+  non-destructive way.
 
 .. class:: basic version_control
 .. _fork:
@@ -537,8 +551,7 @@ Fork
   way, by basing itself over another project's
   source, is called a fork.
   (i. e. Pale Moon is a fork of Mozilla Firefox)
-
-.. class:: basic version_control
+  
 .. _pull request:
 .. _pull requests:
 
